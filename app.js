@@ -1,11 +1,11 @@
 //parallax
 
-$(document).ready(function(){
+$(window).load(function(){
   $('.parallax').parallax().css("height", $(window).height());
 });
 
 //scrollspy
-$(document).ready(function(){
+$(window).load(function(){
   $('.scrollspy').scrollSpy();
 });
 
