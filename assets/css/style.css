@@ -1,0 +1,108 @@
+
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+    font-family: 'Raleway', sans-serif !important;
+}
+
+body{
+  background: black;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    width: 100%;
+    
+}
+
+span{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.orbs{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  display: block;
+  font-size: 100px;
+  margin: 100px 0px 0px 120px;
+  
+  
+}
+  
+
+
+.btn { 
+    text-align: center;
+    background-color: black !important;
+    color: yellow !important;
+    font-family: 'Raleway', sans-serif !important;
+    text-transform: lowercase;
+ }   
+    
+.center-btn {
+    font-family: 'Raleway', sans-serif !important;
+}  
+    
+  
+
+
+.glow{
+  opacity: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: yellow;
+  margin-left: -390.5px;
+  font-size: 100px;
+  position: absolute;
+  margin-top: 50px;
+  
+ 
+}
+
+.icon-block {
+  color: yellow;
+  height: 50px;
+
+}
+
+
+.image-height {
+  height: 200px;
+}
+
+.card-content {
+  height: 150px;
+}
+
+#about {
+  background-color: white;
+  
+}
+
+#portfolio {
+  background-color: yellow;
+  
+}
+
+div.full-page {
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.light {
+  font-size: 20px;
+  text-align: center;
+}
+
+.card-action {
+  color: white !important;
+}
+
