@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>SchillerstromDesign</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src='https://code.jquery.com/jquery.js'></script>
     <script src="app.js"></script>
@@ -24,12 +24,12 @@
     <div class = "navbar-fixed">
     <nav>
         <div class = "nav-wrapper row black">
+               
             <!--nav buttons-->
-                <div class="center-btn">
-                        <a href="#home" class = "btn">home</a>
-                       <a href="#about" class="btn">about me</a>
-                       <a href="#portfolio" class="btn">portfolio</a>
-                       <a href="#contact" class="btn">contact</a>
+                <div class="center-btn ">
+                       <a href="#about" class= "btn flow-text">about me</a>
+                       <a href="#portfolio" class="btn flow-text">portfolio</a>
+                       <a href="#contact" class="btn flow-text">contact</a>
                 </div>
         </div>
     </nav>  
@@ -38,33 +38,39 @@
     <!--section1-->
     <div id = "home" class="parallax parallax-container center valign-wrapper full-page">
         <br>
-            <div class="row">        
-                <span class="orbs">
-                <span>s</span>
-                <span>c</span>
-                <span>h</span>
-                <span>i</span>
-                <span>l</span>
-                <span>l</span>
-                <span>e</span>
-                <span>r</span>
-                <span>s</span>
-                <span>t</span>
-                <span>r</span>
-                <span>o</span>
-                <span>m</span>
-                </span>
-        
-                <span class="glow">
-                     design
-                </span>
+            <div class="row">    
+                <div class="col l12 m4 s12">
+                    <span class="orbs">
+                    <span>s</span>
+                    <span>c</span>
+                    <span>h</span>
+                    <span>i</span>
+                    <span>l</span>
+                    <span>l</span>
+                    <span>e</span>
+                    <span>r</span>
+                    <span>s</span>
+                    <span>t</span>
+                    <span>r</span>
+                    <span>o</span>
+                    <span>m</span>
+                    </span>
+                </div>
+            </div>
+            <br><br>
+            <div class = "row">
+                <div class = "col l12 m4 s12">
+                    <span class="glow">
+                      design
+                    </span>
+                </div>    
             </div>
             
     </div>
        
 <!--section 2 -->
-   
-    <div class = "full-page" id = "about">
+<br>  
+    <div class = "full-page flow-text" id = "about">
         <br>
         <div class="container">
             <div class="row black-text section scrollspy">        
@@ -72,62 +78,80 @@
             </div>
             <div class = "row">
                 <div class="col m4 s12">
-                    <div class="icon-block">
-                        <h2 class="center black">
-                            <i class="material-icons">portrait</i>  
-                        </h2>
+    
+                     <div class="card">
+                        <div class="card-image">
+                            <div class="icon-block">
+                                <h2 class="center black">
+                                    <i class="material-icons">portrait</i>  
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="card-content strong flow-text">
+                                <h3 class="center">me</h3>
+                                    <p class="light">
+                                            I am a designer, strategist, problem-solver, and an off-tune singer. I enjoy making creative solutions to everyday problems
+                                            that are smart and effective.
+                                    </p>
+                        </div>
+                                  
                     </div>
                 </div>
 
-                <div class="col m4 s12">
-                        <div class="icon-block">
-                            <h2 class="center black">
-                                <i class="material-icons">lightbulb_outline</i>  
-                            </h2>
-                        </div>
-                </div>
-
-                <div class="col m4 s12">
-                        <div class="icon-block">
-                            <h2 class="center black">
-                                <i class="material-icons">developer_mode</i>  
-                            </h2>
-                        </div>
-                </div>
-            </div>
-
-            <div class = "row">
-                <div class="col m4 s12">
-                    <h5 class="center">me</h5>
-                    <p class="light">
-                        I am a designer, strategist, problem-solver, and an off-tune singer. I enjoy making creative solutions to everyday problems
-                        that are smart and effective.
-                    </p>
-                </div>
-                  
-           
-                <div class="col m4 s12">
-                    <h5 class="center">my style</h5>
-                    <p class="light ">
-                        I strive to make sites that make the user want to use the website. Using clean design elements, my sites encourage the user
-                            to explore the website in an efficient manner.
-                    </p>
-                  </div> 
                 
-                <div class="col m4 s12">
-                    <h5 class="center">my priorities</h5>
-                    <p class="light">
-                        My websites are fast, responsive, intuitive and dynamic. The end goal is to have a site that works on all devices that is
-                        fast, friendly and comes to life for the user.
-                    </p>
-                  </div> 
+                        <div class="col m4 s12">
+            
+                             <div class="card">
+                                <div class="card-image">
+                                    <div class="icon-block">
+                                        <h2 class="center black">
+                                            <i class="material-icons">lightbulb_outline</i>  
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="card-content strong flow-text">
+                                        <h3 class="center">my style</h3>
+                                            <p class="light">
+                                                    I strive to make sites that make the user want to use the website. Using clean design elements, my sites encourage the user
+                            to explore the website in an efficient manner.
+                                            </p>
+                                </div>
+                                          
+                            </div>
+                        </div>
+                    
+                        
+                                <div class="col m4 s12">
+                    
+                                     <div class="card">
+                                        <div class="card-image">
+                                            <div class="icon-block">
+                                                <h2 class="center black">
+                                                    <i class="material-icons">developer_mode</i>  
+                                                </h2>
+                                            </div>
+                                        </div>
+                                        <div class="card-content strong flow-text">
+                                                <h3 class="center">my priorities</h3>
+                                                    <p class="light">
+                                                        My websites are fast, responsive, intuitive and dynamic. The end goal is to have a site that works on all devices that is
+                                                        fast, friendly and comes to life for the user. 
+                                                    </p>
+                                        </div>
+                                                  
+                                    </div>
+                                </div>
+
+                
+
+               
                 </div>
               </div>
            </div>
 
 <!--section 3 -->
-   
-<div id = "portfolio" class=" full-page">
+<br> <br>
+<div id = "portfolio" class=" full-page flow-text">
         <div class="container">
             <div class="row black-text section scrollspy"> 
                 <br><br>       
@@ -137,13 +161,14 @@
                     <div class="col s12 m4">
                             <div class="card">
                               <div class="card-image">
-                                <img class = "image-height" src="https://image.ibb.co/gPKyhx/ocho.jpg">
-                                <span class="card-title">Liquor Lookup</span>
+                                <img class = "image-height activator" src="https://image.ibb.co/gPKyhx/ocho.jpg">                               
                               </div>
-                              <div class="card-content strong">
-                                <p>Mobile website that uses Javascript, Materialize, Jquery, and Masonry to educate people about tequila (can be expanded to ther liquors) and locates purchase opportunities. </p>
+                              <div class="card-content strong flow-text">
+                                <p>Liquor Lookup</p>
+                                <h6>(clickable image)</h6>
                               </div>
-                              <div class="card-action black">
+                              <div class = "card-reveal flow-text">
+                                <p>An expandable tequila website that uses Javascript, Materialize, Jquery, and Masonry.</p>
                                 <a href="https://guycpalmer.github.io/project1/index.html">Website</a>
                                 <a href="https://github.com/aschillerstrom/project1">Github</a>
                               </div>
@@ -152,33 +177,35 @@
 
                     <div class="col s12 m4">
                             <div class="card">
-                              <div class="card-image">
-                                <img class = "image-height"src="https://s26.postimg.cc/c2qlww8uh/twofirends.jpg">
-                                <span class="card-title">Friend Finder</span>
-                              </div>
-                              <div class="card-content strong">
-                                <p>Fun, full-stack website that uses a survey to find a bestfriend - in this case, a celebrity </p>
-                              </div>
-                              <div class="card-action black">
-                                <a href="https://hidden-chamber-64288.herokuapp.com/">Website</a>
-                                <a href="https://github.com/aschillerstrom/friendFinder">Github</a>
-                              </div>
+                                <div class="card-image">
+                                    <img class = "image-height activator"src="https://s26.postimg.cc/c2qlww8uh/twofirends.jpg">
+                                 </div>
+                                <div class="card-content strong flow-text">
+                                    <p>Friend Finder</p>
+                                    <h6>(clickable image)</h6>
+                                </div>
+                                <div class="card-reveal flow-text">
+                                    <p>Fun, full-stack website that uses a survey to find a bestfriend - in this case, a celebrity </p>                             
+                                    <a href="https://hidden-chamber-64288.herokuapp.com/">Website</a>
+                                    <a href="https://github.com/aschillerstrom/friendFinder">Github</a>
+                                </div>
                             </div>
                     </div>
 
                     <div class="col s12 m4">
                             <div class="card">
-                              <div class="card-image">
-                                <img class = "image-height"src="https://s9.postimg.cc/v07vw1knz/hangman2.png">
-                                <span class="card-title">Hangman</span>
-                              </div>
-                              <div class="card-content strong">
-                                <p>One of my first sites - a western-themed hangman game </p>
-                              </div>
-                              <div class="card-action black">
-                                <a href="https://aschillerstrom.github.io/hangman-game/">Website</a>
-                                <a href="https://github.com/aschillerstrom/hangman-game">Github</a>
-                              </div>
+                                <div class="card-image">
+                                    <img class = "image-height activator"src="https://s9.postimg.cc/v07vw1knz/hangman2.png">
+                                </div>
+                                <div class="card-content strong flow-text">
+                                        <p>Hangman</p>
+                                        <h6>(clickable image)</h6>
+                                    </div>
+                                <div class="card-reveal flow-text">
+                                    <p>One of my first sites - a western-themed hangman game </p>
+                                    <a href="https://aschillerstrom.github.io/hangman-game/">Website</a>
+                                    <a href="https://github.com/aschillerstrom/hangman-game">Github</a>
+                                </div>
                             </div>
                     </div>
 
@@ -188,8 +215,8 @@
     </div>
 <!-- section 4 -->
  
-
-<div id = "contact" class="full-page">
+<br>
+<div id = "contact" class="full-page flow-text">
         
         
         <div class="container">
@@ -243,29 +270,16 @@
 </div>
 
 
-<!--footer-->
+<!--footer
+<br><br>
 <footer class="page-footer black">
    
-    <div class="footer-copyright black">
-      <div class="container black">
-      © 2018 Copyright Amy Schillerstrom
+    <div class="footer-copyright black flow-text">
+      <div class="container black flow-text">
+      © 2018 
       
       </div>
     </div>
-  </footer>
-
-         
-
-
-
-                
-    
-   
-    
-        
-    
-
-             
-           
+  </footer>     -->    
 </body>                 
 </html>

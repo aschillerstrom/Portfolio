@@ -2,6 +2,7 @@
 
 *{
   box-sizing: border-box;
+
 }
 
 html{
@@ -11,6 +12,10 @@ html{
 body{
   background: black;
   font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  color: yellow;
 }
 
 .container{
@@ -29,8 +34,8 @@ span{
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
   display: block;
-  font-size: 100px;
-  margin: 100px 0px 0px 120px;
+  font-size: 9vw;
+  text-align: center;
   
   
 }
@@ -42,7 +47,8 @@ span{
     background-color: black !important;
     color: yellow !important;
     font-family: 'Raleway', sans-serif !important;
-    text-transform: lowercase;
+    text-transform: lowercase !important;
+    font-size: 5vw;
  }   
     
 .center-btn {
@@ -57,10 +63,11 @@ span{
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   color: yellow;
-  margin-left: -390.5px;
-  font-size: 100px;
-  position: absolute;
-  margin-top: 50px;
+  margin-top: 40px;
+  font-size: 9vw;
+  text-align: right;
+  
+  
   
  
 }
@@ -76,17 +83,14 @@ span{
   height: 200px;
 }
 
-.card-content {
-  height: 150px;
-}
 
 #about {
-  background-color: white;
+  background-color:black;
   
 }
 
 #portfolio {
-  background-color: yellow;
+  background-color: black;
   
 }
 
